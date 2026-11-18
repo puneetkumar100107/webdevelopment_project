@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puneet | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Puneet</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeButton">🌙</button>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Puneet</h1>
+            <h3>Student | Future Web Developer</h3>
+            <p>I am a computer science student who enjoys learning programming and creating websites.</p>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a computer science student interested in web development and programming. I am currently learning HTML, CSS, JavaScript, Python and Java. My goal is to become a skilled full-stack developer.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">Data Structures</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Banking Management System</h3>
+                <p>A Java-based project for managing bank accounts and transactions.</p>
+            </div>
+            <div class="project">
+                <h3>Library Management System</h3>
+                <p>A project for managing books, students and library records.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal website created using HTML, CSS and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Puneet | My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
